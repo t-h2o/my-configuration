@@ -18,6 +18,7 @@
 
 ```
 </details>
+
 # Linux
 
 ## Text editor
