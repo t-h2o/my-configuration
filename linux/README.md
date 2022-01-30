@@ -1,0 +1,3 @@
+# os
+
+I'm using linux mint, I will change for an other one...
