@@ -10,12 +10,22 @@
 │       └── README.md
 ├── both
 │   └── nvim
-│       └── README.md
+│       ├── install.sh
+│       ├── nvim
+│       ├── README.md
+│       └── uninstall.sh
 ├── linux
-│   └── alacritty
-│       └── README.md
+│   ├── alacritty
+│   │   ├── alacritty
+│   │   ├── install.sh
+│   │   └── README.md
+│   ├── git
+│   │   ├── clone.sh
+│   │   ├── install.sh
+│   │   ├── README.md
+│   │   └── token
+│   └── README.md
 └── README.md
-
 ```
 </details>
 
