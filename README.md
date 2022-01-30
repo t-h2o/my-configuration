@@ -31,6 +31,10 @@
 
 # Linux
 
+## Main theme
+
+I use this theme "[Cyberpunk](https://github.com/Roboron3042/Cyberpunk-Neon)"
+
 ## Text editor
 
 I use neovim
