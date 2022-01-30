@@ -1,5 +1,8 @@
 # Repository tree
 
+<details>
+	<summary>Clic to view the tree</summary>
+
 ```
 .
 ├── apple
@@ -14,6 +17,7 @@
 └── README.md
 
 ```
+</details>
 
 # Linux
 
