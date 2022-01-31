@@ -52,4 +52,10 @@ I use neovim
 
 ## Terminal Emulator
 
-I use kitty
+I use [kitty](https://sw.kovidgoyal.net/kitty/)
+There is a lot to [configure](https://sw.kovidgoyal.net/kitty/conf/)
+
+Nice tool... :
+
+* [onefetch](https://github.com/o2sh/onefetch)
+* [mdcat](https://github.com/lunaryorn/mdcat)
