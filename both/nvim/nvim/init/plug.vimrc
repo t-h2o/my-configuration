@@ -7,7 +7,7 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 "Plug 'mangeshrex/uwu.vim', { 'as' : 'dracula' }
 Plug 'mangeshrex/uwu.vim'
 Plug 'marko-cerovac/material.nvim'
-Plug 'shaunsingh/nord.nvim'
+Plug 'arcticicestudio/nord-vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'bryanmylee/vim-colorscheme-icons'
@@ -34,7 +34,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'antoinemadec/FixCursorHold.nvim'
 
 " 42 school
-Plug 'pbondoer/vim-42heder'
+Plug '42Paris/42header'
 Plug 'vim-syntastic/syntastic'
 Plug 'alexandregv/norminette-vim'
 call plug#end()
