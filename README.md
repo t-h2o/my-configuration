@@ -37,11 +37,11 @@ I use this theme "[Cyberpunk](https://github.com/Roboron3042/Cyberpunk-Neon)"
 
 ## Text editor
 
-I use neovim
+I use [neovim](https://github.com/theo-grivel/my-configuration/tree/master/both/nvim)
 
 ## Terminal Emulator
 
-I use alacritty
+I use [alacritty](https://github.com/theo-grivel/my-configuration/tree/master/both/nvim)
 
 
 # Apple
