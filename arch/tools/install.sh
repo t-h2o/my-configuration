@@ -1,0 +1,1 @@
+cp ./assets/* /usr/bin
