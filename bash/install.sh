@@ -1,0 +1,2 @@
+cp ./bashrc ~/.bashrc
+bash
