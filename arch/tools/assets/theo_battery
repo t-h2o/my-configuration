@@ -1,1 +1,8 @@
-cat /sys/class/power_supply/BAT0/capacity
+#!/bin/bash
+
+BAT=`cat /sys/class/power_supply/BAT0/capacity`
+FULL=`cat /sys/class/power_supply/BAT0/charge_full`
+CURRENT=`cat /sys/class/power_supply/BAT0/current_now`
+CURRENT=$((CURRENT * 100))
+DIV=$((CURRENT / FULL))
+echo -e "il y a $BAT % ($CURRENT / $FULL) = $DIV"
