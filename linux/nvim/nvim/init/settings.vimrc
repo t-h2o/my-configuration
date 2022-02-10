@@ -27,9 +27,13 @@ set number
 set title
 set mouse=a
 let g:user42 = 'tgrivel'
-let g:mail42 = 'tggrivel@student.42lausanne.ch'
+let g:mail42 = 'tgrivel@student.42lausanne.ch'
 
 let mapleader = "," " map leader to comma
 
 nnoremap <leader>v :vsplit<CR>
 nnoremap <leader>h :split<CR>
+
+" Grammalecte
+
+let g:grammalecte_cli_py='$HOME/.local/share/grammalecte-fr-v2.0.0/grammalecte-cli.py'

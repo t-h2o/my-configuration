@@ -11,4 +11,10 @@
 	mkdir -p $DIR
 	curl $URL > $DIR"plug.vim"
 
-
+###	Install grammalecte
+	mkdir grammalecte
+	cd grammalecte
+	wget https://grammalecte.net/grammalecte/zip/Grammalecte-fr-v2.0.0.zip
+	unzip Grammalecte-fr-v2.0.0.zip
+	cd ..
+	mv grammalecte $HOME/.local/share/

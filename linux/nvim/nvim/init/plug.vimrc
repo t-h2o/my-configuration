@@ -24,6 +24,7 @@ Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mhinz/vim-signify'
 Plug 'jiangmiao/auto-pairs'
 Plug 'mattn/emmet-vim'
@@ -36,4 +37,7 @@ Plug 'antoinemadec/FixCursorHold.nvim'
 Plug '42Paris/42header'
 Plug 'vim-syntastic/syntastic'
 Plug 'alexandregv/norminette-vim'
+
+" gramelect
+Plug 'dpelle/vim-Grammalecte'
 call plug#end()
