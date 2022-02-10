@@ -1,54 +1,46 @@
 # Repository tree
 
+## Main theme
+
+I use this theme "[Cyberpunk](https://github.com/Roboron3042/Cyberpunk-Neon)"
+
 <details>
 	<summary>Clic to view the tree</summary>
 
 ```
 .
 ├── apple
-│   └── kitty
-│       └── README.md
-├── both
-│   └── nvim
-│       ├── install.sh
-│       ├── nvim
-│       ├── README.md
-│       └── uninstall.sh
+│   ├── batcat
+│   ├── kitty
+│   ├── nvim
+│   └── zsh
+├── arch
+│   ├── installation
+│   ├── nodejs
+│   ├── problems
+│   ├── tools
+│   ├── tty-fonts
+│   └── README.md
+├── bash
+│   ├── bashrc
+│   └── install.sh
 ├── linux
 │   ├── alacritty
-│   │   ├── alacritty
-│   │   ├── install.sh
-│   │   └── README.md
+│   ├── batcat
 │   ├── git
-│   │   ├── clone.sh
-│   │   ├── install.sh
-│   │   ├── README.md
-│   │   └── token
+│   ├── kitty
+│   ├── nvim
+│   ├── onefetch
+│   ├── zsh
 │   └── README.md
 └── README.md
 ```
+
 </details>
-
-# Linux
-
-## Main theme
-
-I use this theme "[Cyberpunk](https://github.com/Roboron3042/Cyberpunk-Neon)"
 
 ## Text editor
 
 I use [neovim](https://github.com/theo-grivel/my-configuration/tree/master/both/nvim)
-
-## Terminal Emulator
-
-I use [alacritty](https://github.com/theo-grivel/my-configuration/tree/master/both/nvim)
-
-
-# Apple
-
-## Text editor
-
-I use neovim
 
 ## Terminal Emulator
 
