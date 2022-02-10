@@ -24,7 +24,6 @@ Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mhinz/vim-signify'
 Plug 'jiangmiao/auto-pairs'
 Plug 'mattn/emmet-vim'
