@@ -12,6 +12,8 @@ cat -n ~/.config/kitty/kitty.conf | grep opacity
 
 # My shortcuts
 
+I want the same shortcut of a browser like firefox
+
 | keys						| effect			|
 | :-:						| :-:				|
 | ```ctrl + d```			| exit				|
@@ -23,3 +25,5 @@ cat -n ~/.config/kitty/kitty.conf | grep opacity
 | ```ctrl + shift + o```	| decrease opacity	|
 | ```ctrl + t```			| new tab			|
 | ```ctrl + shift + t```	| close tab			|
+| ```ctrl + tab```			| right tab			|
+| ```ctrl + shift + tab```	| left tab			|
