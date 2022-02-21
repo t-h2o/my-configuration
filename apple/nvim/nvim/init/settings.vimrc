@@ -29,6 +29,10 @@ set mouse=a
 let g:user42 = 'tgrivel'
 let g:mail42 = 'tggrivel@student.42lausanne.ch'
 
+" for find where is norminette binary,
+" which norminette
+let g:norminette_exec="/usr/local/bin/norminette"
+
 let mapleader = "," " map leader to comma
 
 nnoremap <leader>v :vsplit<CR>
