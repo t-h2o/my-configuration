@@ -1,5 +1,5 @@
 region="Europe"
-city="zurich"
+city="Zurich"
 myhostame="panic"
 
 # genfstab -U /mnt >> /mnt/etc/fstab
