@@ -28,6 +28,11 @@ alias	tree="tree -C --dirsfirst"
 
 alias	ip="ip -c"
 
+#	change directory
+
+alias	..="cd .."
+alias	...="cd ../.."
+
 #	Prompt
 
 PS1='[\u@\h \W]\$ '
