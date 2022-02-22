@@ -37,3 +37,13 @@ nnoremap <leader>h :split<CR>
 " Grammalecte
 
 let g:grammalecte_cli_py='$HOME/.local/share/grammalecte-fr-v2.0.0/grammalecte-cli.py'
+
+" change movement!
+" For me it's more logical like that...
+" why, because your right index is on J key
+" and left index on F key
+
+noremap ; l " left
+noremap l k " up
+noremap k j " down
+noremap j h " right
