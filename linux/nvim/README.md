@@ -11,3 +11,7 @@
 ```gt``` change tab
 
 ```gT``` change tab
+
+remove highlight with ```:noh``` (no highlight)
+
+
