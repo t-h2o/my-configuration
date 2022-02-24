@@ -31,6 +31,12 @@ pac+="bat "		# bat is readable
 pac+="neofetch "	# because arch logo is coool
 
 
+#	RTFM
+
+pac+="man-db "		# manual data-base
+pac+="man-pages "	# manual pages
+
+
 #	just some echo...
 
 echo " all this package..."
