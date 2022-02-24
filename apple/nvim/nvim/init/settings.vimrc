@@ -37,3 +37,17 @@ let mapleader = "," " map leader to comma
 
 nnoremap <leader>v :vsplit<CR>
 nnoremap <leader>h :split<CR>
+
+" change movement!
+" For me it's more logical like that...
+" why, because your right index is on J key
+" and left index on F key
+
+" left
+noremap ; l 
+" up
+noremap l k
+" down
+noremap k j
+" right
+noremap j h
