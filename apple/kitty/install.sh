@@ -1,2 +1,5 @@
 # Install kitty
-cp -r ./kitty $HOME/.config/
+
+mkdir -p $HOME/.config/kitty
+ln ./kitty/kitty.conf $HOME/.config/kitty/
+ln ./kitty/theme.conf $HOME/.config/kitty/
