@@ -7,10 +7,9 @@ partition="/mnt"
 
 #	first
 
-pac+="base "		# I don't know but arch wiki say
-pac+="linux "		# I don't know but arch wiki say
-pac+="linux-firmware "	# I don't know but arch wiki say
-
+pac+="base-devel "  # base utils ; eg : gcc, make, which, etc...
+pac+="linux-zen "   # kernel with git inside
+pac+="linux-firmware "  # driver of your hardware
 
 #	file system
 
