@@ -2,37 +2,39 @@
 
 ## special tools
 
+* [batcat](apple/batcat/README.md)
+* tree
+* [ohmyzsh](linux/ohmyzsh/install.sh)
+
 ## by os
 
 ### android
+
 * [termux](./android/README.md)
+
 ### apple
-* [batcat](apple/batcat/README.md)
+
 * kitty
 * nvim
-* zsh
+
 ### arch
+
 * bspwm
 * i3
 * installation
 * musikcube
-* nodejs
 * problems
 * sxhkd
 * tools
 * tty-fonts
-### linux
-* batcat
-* clock
-* git
-* keyboard
-* kitty
-* magick
-* nvim
-* ohmyzsh
-* onefetch
-* tmux
-* zathura
-* zsh
 
-31 directories, 6 files
+### linux
+
+* [clock](linux/clock/README.md)
+* keyboard delay/rate
+* [kitty](linux/kitty/README.md)
+* nvim
+* onefetch
+* [tmux](linux/tmux/README.md)
+* zathura
+
