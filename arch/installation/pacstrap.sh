@@ -7,7 +7,7 @@ partition="/mnt"
 
 #	first
 
-pac+="base-devel "  # base utils ; eg : gcc, make, which, etc...
+pac+="base-devel "  # base utils ; eg: gcc, make, which, etc...
 pac+="linux-zen "   # kernel with git inside
 pac+="linux-firmware "  # driver of your hardware
 
@@ -27,6 +27,9 @@ pac+="networkmanager "	# nmcli (networkmanager command line)
 pac+="git "		# git is coool
 pac+="vim "		# vim is coool
 pac+="bat "		# bat is readable
+pac+="zsh "		# oh-my-zsh
+pac+="tmux "		# split window in the terminal
+pac+="tree "		# not for ecology
 pac+="neofetch "	# because arch logo is coool
 
 
