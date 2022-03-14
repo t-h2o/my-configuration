@@ -4,6 +4,7 @@
 
 * [batcat](apple/batcat/README.md)
 * tree
+* [vim](arch/vimrc/vimrc)
 * [ohmyzsh](linux/ohmyzsh/install.sh)
 
 ## by os
