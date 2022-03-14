@@ -25,7 +25,7 @@ nnoremap <leader>h :split<CR>
 " why, because your right index is on J key
 " and left index on F key
 
-noremap ; l " left
-noremap l k " up
-noremap k j " down
-noremap j h " right
+noremap ; l
+noremap l k
+noremap k j
+noremap j h
