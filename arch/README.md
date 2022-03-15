@@ -1,16 +1,16 @@
 # Arch linux
 
-## Tips
+### windows manager
+
+[I3](https://wiki.archlinux.org/title/I3) and
+this [package](https://archlinux.org/packages/community/x86_64/i3-gaps/)
 
 ### tty fonts
 
-When you set your os, it's can be better with a good font!
-Let's check this help
+When you set your os, it's can be better readable with a good font!
 
-### pacman
+Execute this [code](arch/tty-fonts/install.sh)
 
-sometime, you can't install because the key gpg.
+### package manager
 
-```sh
-pacman-key --refresh-keys
-```
+I use [yay](https://github.com/Jguer/yay#installation)
