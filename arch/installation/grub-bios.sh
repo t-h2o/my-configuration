@@ -1,4 +1,8 @@
-# /dev/sda1 1 MiB and without file system and gdisk code ef02
+# sda      298.1G  disk
+# |-sda1       8G  part swap [SWAP]
+# `-sda2      42G  part ext4 /
+
 disk_install="/dev/sda"
-grub-install --target=i386-pc $disk_install
+
+grub-install --force --target=i386-pc $disk_install
 grub-mkconfig -o /boot/grub/grub.cfg

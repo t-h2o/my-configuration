@@ -30,6 +30,7 @@ pac+="bat "		# bat is readable
 pac+="zsh "		# oh-my-zsh
 pac+="tmux "		# split window in the terminal
 pac+="tree "		# not for ecology
+pac+="kitty "		# terminal emulator (work better with ssh)
 pac+="neofetch "	# because arch logo is coool
 
 
