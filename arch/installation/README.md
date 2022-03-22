@@ -1,4 +1,4 @@
-# install arch
+# My notes: arch installation
 
 0. check if it's a EFI or BIOS.
 It's will change your layout partition and bootloader.
@@ -14,3 +14,7 @@ I use gdisk
 
 5. Use my script `grub-*.sh` for grub
 or `systemd-boot.sh`
+
+## Problems
+
+* pgp signature
