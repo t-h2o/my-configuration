@@ -3,7 +3,7 @@
 ## special tools
 
 * [batcat](apple/batcat/README.md)
-* tree
+* [tree](https://linux.die.net/man/1/tree)
 * [vim](arch/vimrc/vimrc)
 * [ohmyzsh](linux/ohmyzsh/install.sh)
 
@@ -15,27 +15,26 @@
 
 ### apple
 
-* kitty
-* nvim
+* [kitty](apple/kitty/README.md)
+* [neovim](apple/nvim/README.md)
 
 ### arch
 
 * bspwm
 * i3
-* installation
+* [installation](arch/installation/README.md)
 * musikcube
 * problems
 * sxhkd
-* tools
+* my-tools
 * tty-fonts
 
 ### linux
 
 * [clock](linux/clock/README.md)
-* keyboard delay/rate
+* [keyboard setting](linux/keyboard/README.md)
 * [kitty](linux/kitty/README.md)
-* nvim
-* onefetch
+* [neovim](linux/nvim/README.md)
 * [tmux](linux/tmux/README.md)
 * zathura
 
