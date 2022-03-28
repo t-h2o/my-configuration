@@ -1,11 +1,13 @@
-" For everything else, use a tab width of 4 space chars.
-set tabstop=4       " The width of a TAB is set to 4.
-set shiftwidth=4    " Indents will have a width of 4.
-set softtabstop=4   " Sets the number of columns for a TAB.
+"	~/.vimrc
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set incsearch ignorecase smartcase hlsearch
 set wildmode=longest,list,full wildmenu
 set ruler laststatus=2 showcmd showmode
-set list listchars=trail:»,tab:»-
+set listchars=trail:»,tab:»-
+
+syntax on
 set fillchars+=vert:\ 
 set wrap breakindent
 set encoding=utf-8
@@ -20,11 +22,7 @@ let mapleader = "," " map leader to comma
 nnoremap <leader>v :vsplit<CR>
 nnoremap <leader>h :split<CR>
 
-" change movement!
-" For me it's more logical like that...
-" why, because your right index is on J key
-" and left index on F key
-
+" change native mouvement hjkl --> jkl;
 noremap ; l
 noremap l k
 noremap k j
