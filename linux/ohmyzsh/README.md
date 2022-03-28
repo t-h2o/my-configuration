@@ -19,3 +19,7 @@ PATH=$PATH:$HOME/usr/bin
 .oh-my-zsh/plugins/git/git.plugin.zsh
 ```
 
+to open the current file in the defautl application
+```
+alias	open="xdg-open"
+```
