@@ -2,7 +2,7 @@
 
 ## special tools
 
-* [batcat](apple/batcat/README.md)
+* [batcat](https://github.com/sharkdp/bat)
 * [tree](https://linux.die.net/man/1/tree)
 * [vim](arch/vimrc/vimrc)
 * [ohmyzsh](linux/ohmyzsh/install.sh)
