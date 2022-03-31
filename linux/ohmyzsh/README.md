@@ -18,4 +18,6 @@ PATH=$PATH:$HOME/usr/bin
 ```
 .oh-my-zsh/plugins/git/git.plugin.zsh
 ```
-
+```
+alias   tree="tree -C --dirsfirst"
+```
