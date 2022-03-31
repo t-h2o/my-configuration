@@ -21,3 +21,8 @@ PATH=$PATH:$HOME/usr/bin
 ```
 alias   tree="tree -C --dirsfirst"
 ```
+
+to open the current file in the defautl application
+```
+alias	open="xdg-open"
+```
