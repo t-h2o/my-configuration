@@ -18,3 +18,4 @@ or `systemd-boot.sh`
 ## Problems
 
 * pgp signature
+* boot error: sbin/init
