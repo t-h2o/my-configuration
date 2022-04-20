@@ -49,6 +49,7 @@ cp ./Assets/config $HOME/i3/config
 1. active mode "resize" by `super + r`
 
 2. Resize
+
 | keys| effect|
 | :-:| :-:|
 | ```j``` or ```left```	|  shrink window |
