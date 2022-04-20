@@ -64,7 +64,18 @@ cp ./Assets/config $HOME/i3/config
 
 | keys| effect|
 | :-:| :-:|
+| ```super + space```	|  toggle float/tilling mode |
+
+
+### Tilling mode
+
+| keys| effect|
+| :-:| :-:|
 | ```super + shift + j```	|  move window left |
 | ```super + shift + k```	|  move window down |
 | ```super + shift + l```	|  move window up |
 | ```super + shift + ;```	|  move window right |
+
+### Float mode
+
+Use your mouse in the window manager mouse less
