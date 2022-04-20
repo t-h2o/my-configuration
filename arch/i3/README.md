@@ -1,33 +1,45 @@
 # My shortcuts
 
 [i3](https://i3wm.org/)
-is a dynamic
+is a
 [tiling window manager](https://en.wikipedia.org/wiki/Tiling_window_manager)
 inspired by wmii that is primarily targeted at developers and advanced users.
 
 The stated goals for i3 include clear documentation,
 proper multi-monitor support, a tree structure for windows,
-and different modes like in vim. 
+and different modes like those in vim. 
 
-### Use this config
+### How to use this config
 
-move file config
+Clone the repo and go inside it
+```
+git clone https://github.com/theo-grivel/my-configuration.git && cd my-configuration
+```
+
+Puting file config
 ```
 mkdir -p $HOME/i3
+```
+or
+```
+mkdir -p $HOME/.config/i3
+```
+if you wish
+```
 cp ./Assets/config $HOME/i3/config
 ```
 
-## Desktop
+## Workspaces
 
 | keys| effect|
 | :-:| :-:|
-| ```ctrl + alt + left```	| move to left desktop	|
-| ```ctrl + alt + right```	| move to right desktop	|
-| ```super + 1```	| move to desktop 1	|
-| ```super + [n]```	| move to desktop [n]	|
+| ```ctrl + alt + left```	| move to left workspace	|
+| ```ctrl + alt + right```	| move to right workspace	|
+| ```super + 1```	| move to the workspace 1	|
+| ```super + [n]```	| move to the workspace [n]	|
 
 
-## switch Windows
+## Switching windows
 
 | keys| effect|
 | :-:| :-:|
@@ -37,16 +49,16 @@ cp ./Assets/config $HOME/i3/config
 | ```super + ;```	| move to right window |
 
 
-## dash board
+## dashboard
 
 | keys| effect|
 | :-:| :-:|
-| ```super + shift + d```	| open dash board |
+| ```super + shift + d```	| open dashboard |
 
 
-## resize window
+## Resizing window
 
-1. active mode "resize" by `super + r`
+1. activate "resize" mode by `super + r`
 
 2. Resize
 
@@ -60,7 +72,7 @@ cp ./Assets/config $HOME/i3/config
 3. press `return` to quit.
 
 
-## Move window
+## Moving window
 
 | keys| effect|
 | :-:| :-:|
@@ -76,6 +88,6 @@ cp ./Assets/config $HOME/i3/config
 | ```super + shift + l```	|  move window up |
 | ```super + shift + ;```	|  move window right |
 
-### Float mode
+### Floating mode
 
 Use your mouse in the window manager mouse less
