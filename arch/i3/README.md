@@ -49,8 +49,8 @@ cp ./Assets/config $HOME/i3/config
 1. active mode "resize" by `super + r`
 
 2. Resize
-| :-:| :-:|
 | keys| effect|
+| :-:| :-:|
 | ```j``` or ```left```	|  shrink window |
 | ```k``` or ```down```	|  grow height window |
 | ```l``` or ```up```	|  shrink height window |
@@ -61,8 +61,8 @@ cp ./Assets/config $HOME/i3/config
 
 ## Move window
 
-| :-:| :-:|
 | keys| effect|
+| :-:| :-:|
 | ```super + shift + j```	|  move window left |
 | ```super + shift + k```	|  move window down |
 | ```super + shift + l```	|  move window up |
