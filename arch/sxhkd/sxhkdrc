@@ -1,0 +1,4 @@
+#	~/.sxhkdrc
+# terminal emulator
+super + Return
+	kitty

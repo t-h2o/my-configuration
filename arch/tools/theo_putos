@@ -1,0 +1,1 @@
+sudo dd if=archlinux-2017.iso of=/dev/sdb bs=1024k status=progress
