@@ -1,0 +1,2 @@
+"	~/.vimrc
+	source $HOME/.vim/init.vim

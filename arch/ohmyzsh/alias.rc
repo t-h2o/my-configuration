@@ -1,0 +1,40 @@
+#	neofetch
+alias	neofetch="clear && neofetch"
+
+#	List
+
+alias	ls="ls --color=auto"
+alias	ll="ls -lh"
+alias	l="ls -AF"
+
+#	grep
+
+alias	grep="grep --color=auto"
+
+#	batcat
+
+alias	cat="bat"
+alias	shlvl="env | grep SHLVL"
+
+#	Onefetch
+
+alias	onefetch="CLICOLOR_FORCE=true onefetch | perl -pe's/\/\/.+@/\/\//g'"
+
+#	tree
+
+alias	tree="tree -C --dirsfirst"
+
+#	ip
+
+alias	ip="ip -c"
+
+#	change directory
+
+alias	..="cd .."
+alias	...="cd ../.."
+
+#	Prompt
+
+PS1='[\u@\h \W]\$ '
+PS2='[\h@\h \W]\$ '
+
