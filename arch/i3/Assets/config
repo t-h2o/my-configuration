@@ -133,8 +133,8 @@ bindsym $super+r mode "resize"
 # panel
 bar {
         colors {
-        background #2f343f
-        statusline #2f343f
+        background #000b1e
+        statusline #0abdc6
         separator #4b5262
 
         # colour of border, background, and text
