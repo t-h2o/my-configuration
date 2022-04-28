@@ -5,9 +5,8 @@ systemctl start NetworkManager
 
 # Active sudo
 
-pacman -S vi
 ### uncomment %sudo
- # visudo /etc/sudoers
+#EDITOR=vim visudo /etc/sudoers
 
 
 # Audio
