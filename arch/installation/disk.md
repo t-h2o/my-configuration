@@ -23,6 +23,9 @@ I made 2 partitions,
 * boot, not encrypted
 * the rest, encrypted
 
+I followed this [tutorial][ltutorial]
+[ltutorial]: https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system#LVM_on_LUKS
+
 ```
 sda
 ├─sda1       (420 MiB)
@@ -71,13 +74,14 @@ if you use LVM (
 ```
 cryptsetup luksFormat /dev/sda2
 # Put your password
+cryptsetup open /dev/sda2 cryptvolname
 ```
 
 
 3. Creating physical group
 
 ```
-pvcreate /dev/sda2 pvname
+pvcreate /dev/mappe/cryptvolname pvname
 ```
 
 
