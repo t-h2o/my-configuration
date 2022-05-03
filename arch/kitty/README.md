@@ -1,4 +1,8 @@
-# configure 
+# Kitty
+
+[official site](https://sw.kovidgoyal.net/kitty/)
+
+## Shortcut to the config file
 
 ```Ctrl + Shift + F2```
 
