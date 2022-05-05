@@ -4,6 +4,8 @@
 set $super Mod4
 set $alt Mod1
 
+# bindcode 218 exec "flameshot gui"
+
 # set font
 font pango: JetBrains Mono NL Bold
 
@@ -95,20 +97,28 @@ bindsym $super+Shift+space focus mode_toggle
 # switch to workspace
 bindsym $alt+Control+Right workspace next
 bindsym $alt+Control+Left workspace prev
+bindsym $super+0 workspace 0
 bindsym $super+1 workspace 1
 bindsym $super+2 workspace 2
 bindsym $super+3 workspace 3
 bindsym $super+4 workspace 4
 bindsym $super+5 workspace 5
 bindsym $super+6 workspace 6
+bindsym $super+7 workspace 7
+bindsym $super+8 workspace 8
+bindsym $super+9 workspace 9
 
 # move focused container to workspace
+bindsym $super+Shift+0 move container to workspace 0
 bindsym $super+Shift+1 move container to workspace 1
 bindsym $super+Shift+2 move container to workspace 2
 bindsym $super+Shift+3 move container to workspace 3
 bindsym $super+Shift+4 move container to workspace 4
 bindsym $super+Shift+5 move container to workspace 5
 bindsym $super+Shift+6 move container to workspace 6
+bindsym $super+Shift+7 move container to workspace 7
+bindsym $super+Shift+8 move container to workspace 8
+bindsym $super+Shift+9 move container to workspace 9
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $super+Shift+r restart
