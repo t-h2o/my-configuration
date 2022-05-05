@@ -35,7 +35,12 @@ so first do a little su/
 2. Then check if everything is up to do with pacman -Syu
 
 3. Temporarily disable file signature verification in /etc/pacman.conf
-to do that change RemoteFileSigLevel = Required with RemoteFileSigLevel = Never
+to do that change
+
+```
+- RemoteFileSigLevel = Required
++ RemoteFileSigLevel = Never
+```
 
 4. Add the new mirrors list that parabola uses with:
 
@@ -46,20 +51,60 @@ pacman -U https://www.parabola.nu/packages/libre/x86_64/pacman-mirrorlist/downlo
 ```
 
 5. Restore the verfication of the signature by changing the same line to:
-	RemoteFileSigLevel = Required DatabaseOptional
 
-6. Rename the new mirrorlist in /etc/pacman.d/mirrorlist.pacnew to /etc/pacman.d/mirrorlist
+```
+- RemoteFileSigLevel = Required 
++ RemoteFileSigLevel = DatabaseOptional
+```
+
+6. Rename the new mirrorlist
+
+```
+mv /etc/pacman.d/mirrorlist.pacnew /etc/pacman.d/mirrorlist
+```
 
 7. Replace your pacman.conf file with the default parabola one.
 You can have it by doing
 
 ```
 mv /etc/pacman.conf /etc/pacman.conf.bk
-wget on https://git.parabola.nu/abslibre.git/plain/libre/pacman/pacman.conf.$(uname -m) -o /etc/pacman.conf
+curl https://git.parabola.nu/abslibre.git/plain/libre/pacman/pacman.conf.$(uname -m) -o /etc/pacman.conf
 ```
 
-8. In `/etc/pacman.conf`, be sure that the Libre repo is uncommented.
-if you want to move away from systemd uncomment every nonsystemd repo 
+8. In `/etc/pacman.conf`, comment the last line.
+uncomment the following line
+
+```
+prism: Every program who can catch your data
+systemd: no libre. It's will be replace by openrc
+
+[nonprism]
+Include = /etc/pacman.d/mirrorlist
+
+[nonsystemd]
+Include = /etc/pacman.d/mirrorlist
+
+[libre]
+Include = /etc/pacman.d/mirrorlist
+
+[kernels]
+Include = /etc/pacman.d/mirrorlist
+
+[nonprism-multilib]
+Include = /etc/pacman.d/mirrorlist
+
+[nonsystemd-multilib]
+Include = /etc/pacman.d/mirrorlist
+
+[libre-multilib]
+Include = /etc/pacman.d/mirrorlist
+
+[multilib]
+Include = /etc/pacman.d/mirrorlist
+```
+
+be sure that the Libre repo is uncommented.
+If you want to move away from systemd uncomment every nonsystemd repo 
 also uncomment the nonprism repo to maximize your privacy. 
 
 9. Clear the cache and refresh the DB of pacman with:
@@ -72,11 +117,25 @@ pacman -Syy
 btw now add each time we'll dl a package do it with the -Suu to upgrade/downgrade
 your packages to the lastest version supported by Parabola.
 
-10. update the keyrings with pacman-key --refresh and install the packet your-freedom
+10. update the keyring and install the packet your-freedom
+
+```
+pacman-key --refresh
+pacman -S your-freedom
+pacman -S your-privacy
+```
+
+This package it's a black list of non-free packages.
+
 this packet will remove any non free software and propose if it exist a replacement,
 it will change your kernel so if you want a specific one be sure to precise it. 
 
-11. if you want to move to openrc also install libelogind, udev-init-scripts
+11. if you want to move to openrc also install
+
+```
+pacman -S libelogind udev-init-scripts
+pacman -Syu your-initfreedom elogind udev-init-scripts openrc
+```
 those are needed to still use software that was originally made for systemd.
 the your-freedom package will make sure that elogind doesn't come with systemd.
 
