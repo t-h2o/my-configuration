@@ -21,6 +21,16 @@ Software differs from material objects—such as chairs, sandwiches, and gasolin
 
 </details>
 
+<details>
+<summary><b>Linux three distrobution</b></summary>
+  <p align="center">
+  <img width="80%" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Linux_Distribution_Timeline_21_10_2021.svg">
+</p>
+[disthree]: 
+
+</details>
+
+
 
 Parabola GNU/Linux-libre, a distribution based on Arch that prioritizes simple package and system management.
 This os supported the 32 bit, it is pratical for old computer.
