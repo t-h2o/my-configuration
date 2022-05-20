@@ -1,0 +1,1 @@
+lesskey my-lesskey
