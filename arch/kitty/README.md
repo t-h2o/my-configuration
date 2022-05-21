@@ -2,11 +2,12 @@
 
 [official site](https://sw.kovidgoyal.net/kitty/)
 
-## Shortcut to the config file
-
-```Ctrl + Shift + F2```
 
 ## Tips
+
+To open the configuration file
+
+```Ctrl + Shift + F2```
 
 for find somethings in the file,
 
@@ -39,6 +40,8 @@ cat -n ~/.config/kitty/kitty.conf | grep opacity
 
 ## Screen
 
+| keys						| effect			|
+| :-						| :-				|
 | ```alt + shift + v```		| split vertical	|
 | ```alt + shift + h```		| split horizontal	|
 | ```alt + j```				| move left			|
