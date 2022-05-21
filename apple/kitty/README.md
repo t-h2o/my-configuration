@@ -1,35 +1,36 @@
-# configure 
+# Arch linux
 
-```Ctrl + Shift + F2```
+## Install arch linux
 
-## Tips
+Follow the
+[read me](./installation)
 
-for find somethings in the file,
+* [change tty font]()
+* [install packages](./installation/pacstrap.sh)
 
-```sh
-cat -n ~/.config/kitty/kitty.conf | grep opacity
-```
 
-# My shortcuts
+## Fonts
 
-| keys						| effect			|
-| :-:						| :-:				|
-| ```ctrl + d```			| exit				|
-| ```ctrl + o```			| increase opacity	|
-| ```ctrl + shift + o```	| dicrease opacity	|
-| ```ctrl + shift + +```	| increase font size|
-| ```ctrl + shift + -```	| dicrease font size|
-| ```ctrl + t```			| new tab			|
-| ```ctrl + shift + t```	| close tab			|
-| ```ctrl + tab```			| switch tab front	|
-| ```ctrl + shift + tab```	| switch tab back	|
-| ```alt + shift + v```		| split vertical	|
-| ```alt + shift + h```		| split horizontal	|
-| ```alt + j```				| move left			|
-| ```alt + k```				| move down			|
-| ```alt + l```				| move up			|
-| ```alt + ;```				| move right		|
-| ``` alt + shift + j ```	| window narrower	|
-| ``` alt + shift + ; ```	| window wider		|
-| ``` alt + shift + l ```	| window taller		|
-| ``` alt + shift + k ```	| window shorter 3	|
+* [tty font](./fonts)
+* [jetBrain font](./fonts)
+
+
+## Simple Vim
+
+* [vim](./vimrc)
+
+
+## Windows manager
+
+* [I3](./i3) is a
+[tiling window manager](https://en.wikipedia.org/wiki/Tiling_window_manager)
+
+
+## Package manager
+
+I use [pacman][lpacman]
+and for the [AUR][laur], I use [yay][lyay]
+
+[lpacman]: https://wiki.archlinux.org/title/Pacman
+[laur]: https://aur.archlinux.org/
+[lyay]: https://github.com/Jguer/yay#installation
