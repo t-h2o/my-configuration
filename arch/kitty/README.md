@@ -16,6 +16,8 @@ cat -n ~/.config/kitty/kitty.conf | grep opacity
 
 # My shortcuts
 
+## Generals
+
 | keys						| effect			|
 | :-						| :-				|
 | ```ctrl + d```			| exit				|
@@ -23,10 +25,20 @@ cat -n ~/.config/kitty/kitty.conf | grep opacity
 | ```ctrl + shift + o```	| dicrease opacity	|
 | ```ctrl + shift + +```	| increase font size|
 | ```ctrl + shift + -```	| dicrease font size|
+
+
+## Tabs
+
+| keys						| effect			|
+| :-						| :-				|
 | ```ctrl + t```			| new tab			|
 | ```ctrl + shift + t```	| close tab			|
 | ```ctrl + tab```			| switch tab front	|
 | ```ctrl + shift + tab```	| switch tab back	|
+
+
+## Screen
+
 | ```alt + shift + v```		| split vertical	|
 | ```alt + shift + h```		| split horizontal	|
 | ```alt + j```				| move left			|
