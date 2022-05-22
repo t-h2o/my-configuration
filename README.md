@@ -16,6 +16,7 @@ I share my dot files. I hope you will like it !
 * Text editor: [vim](arch/vimrc)
 * PDF viewer: [zathura](arch/zathura)
 * Shortcuts keyboard: [sxhkd](arch/sxhkd)
+* power manager: [tlp](arch/tlp)
 * [Fonts](arch/fonts)
 
 
