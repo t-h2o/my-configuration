@@ -15,6 +15,6 @@ call plug#begin()
   Plug 'junegunn/rainbow_parentheses.vim'
 
 "  Tabulation tool
-   Pug 'godlygeek/tabular'  
+  Plug 'godlygeek/tabular'  
 
 call plug#end()
