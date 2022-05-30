@@ -9,7 +9,6 @@ If I steal your laptop, I cannot open your files.
 
 _DO NOT ENCRYPT YOUR BOOT PARITITION !_
 
-
 ## Logical volume manager
 
 I advise to use [LVM][llvm] for make easier the use of your disks.
@@ -23,8 +22,8 @@ I made 2 partitions,
 * boot, not encrypted
 * the rest, encrypted
 
-I followed this [tutorial][ltutorial]
-[ltutorial]: https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system#LVM_on_LUKS
+I followed this
+[tutorial](https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system#LVM_on_LUKS)
 
 ```
 sda
