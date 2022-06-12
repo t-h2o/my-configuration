@@ -2,7 +2,7 @@
 #!/bin/bash
 move_dot_files () {
 	cp ./vimrc $HOME/.vimrc
-	cp -r ./vim/* $HOME/.vim
+	cp -r ./vim $HOME/.config/vim
 }
 
 ###	Install plugin manager
