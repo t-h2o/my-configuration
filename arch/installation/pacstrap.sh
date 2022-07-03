@@ -16,9 +16,15 @@ pac+="linux-firmware " # driver of your hardware
 # File system
 
 pac+="dosfstools "  # VFAT
+pac+="btrfs-progs " # btrfs
 pac+="e2fsprogs "   # ext3, ext4
 pac+="lvm2 "        # LVM
 pac+="cryptsetup "  # Encrypt
+
+
+# Bootloader
+
+pac+="grub "  # VFAT
 
 
 # Network manager
