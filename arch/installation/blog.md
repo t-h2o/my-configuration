@@ -2,6 +2,8 @@
 
 > Arch because it's KISS
 
+[![asciicast](https://asciinema.org/a/510943.svg)](https://asciinema.org/a/510943?t=5)
+
 ## Installation
 
 All informations not here are on the Arch wiki: [installtion](https://wiki.archlinux.org/title/Installation_guide)
