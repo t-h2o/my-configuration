@@ -10,7 +10,7 @@ All informations not here are on the Arch wiki: [installtion](https://wiki.archl
 
 ### SSH connection
 
-After to boot with the USB key, connect to internet, change the root password and log in with
+After to boot with the USB key, connect to internet, change the root password and log in with ssh.
 
 ```sh
 $ ssh root@${IP_ADDRESS}
@@ -64,3 +64,15 @@ Add a laber and a file system inside the partitions/logic volume. For the `root`
 # mount /dev/sda2 /mnt/boot --mkdir
 # mount /dev/sda1 /mnt/boot/efi --mkdir
 ```
+
+### Install main packages
+
+```sh
+pacstrap base base-devel linux-zen linux-firmware dosfstools btrfs-progs e2fsprogs lvm2 cryptsetup grub networkmanager git vim bat zsh tmux tree neofetch man-db man-pages 
+```
+
+### Set the bootloader
+
+#### `mkinitcpio`
+
+#### `grub`
