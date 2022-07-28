@@ -1,5 +1,9 @@
 # My notes: arch installation
 
+> An installation LVM on luks for UEFI
+
+[![asciicast](https://asciinema.org/a/510943.svg)](https://asciinema.org/a/510943?t=5)
+
 ## Instructions
 
 1. Check if it's a EFI or BIOS. It's will change your layout partition and bootloader.
