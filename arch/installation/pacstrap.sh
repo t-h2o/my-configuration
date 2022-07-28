@@ -1,3 +1,4 @@
+#!/bin/sh
 ## Where
 
 partition="/mnt"
@@ -7,47 +8,47 @@ partition="/mnt"
 
 # First
 
-pac+="base "           # base shutdown
-pac+="base-devel "     # base utils ; eg: gcc, make, which, etc...
-pac+="linux-zen "      # kernel with git inside
-pac+="linux-firmware " # driver of your hardware
+pac="base"           # base shutdown
+pac="$pac base-devel"     # base utils ; eg: gcc, make, which, etc...
+pac="$pac linux-zen"      # kernel with git inside
+pac="$pac linux-firmware" # driver of your hardware
 
 
 # File system
 
-pac+="dosfstools "  # VFAT
-pac+="btrfs-progs " # btrfs
-pac+="e2fsprogs "   # ext3, ext4
-pac+="lvm2 "        # LVM
-pac+="cryptsetup "  # Encrypt
+pac="$pac dosfstools"  # VFAT
+pac="$pac btrfs-progs" # btrfs
+pac="$pac e2fsprogs"   # ext3, ext4
+pac="$pac lvm2"        # LVM
+pac="$pac cryptsetup"  # Encrypt
 
 
 # Bootloader
 
-pac+="grub "  # VFAT
+pac="$pac grub"  # VFAT
 
 
 # Network manager
 
-pac+="networkmanager "	# nmcli (networkmanager command line)
+pac="$pac networkmanager"	# nmcli (networkmanager command line)
 
 
 # My tools
 
-pac+="git "      # git is coool
-pac+="vim "      # vim is coool
-pac+="bat "      # bat is readable
-pac+="zsh "      # oh-my-zsh
-pac+="tmux "     # split window in the terminal
-pac+="tree "     # not for ecology
-pac+="kitty "    # terminal emulator (work better with ssh)
-pac+="neofetch " # because arch logo is coool
+pac="$pac git"      # git is coool
+pac="$pac vim"      # vim is coool
+pac="$pac bat"      # bat is readable
+pac="$pac zsh"      # oh-my-zsh
+pac="$pac tmux"     # split window in the terminal
+pac="$pac tree"     # not for ecology
+pac="$pac kitty"    # terminal emulator (work better with ssh)
+pac="$pac neofetch" # because arch logo is coool
 
 
 # RTFM
 
-pac+="man-db "    # manual data-base
-pac+="man-pages " # manual pages
+pac="$pac man-db"    # manual data-base
+pac="$pac man-pages" # manual pages
 
 
 # Just some echo...
@@ -60,4 +61,4 @@ echo "--> $partition"
 
 # The real things...
 
-pacstrap $partition $pac
+pacstrap "$partition" "$pac"
