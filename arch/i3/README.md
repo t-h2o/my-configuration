@@ -11,23 +11,39 @@ and different modes like those in vim.
 
 ### How to use this config
 
-Clone the repo and go inside it
-```
+1. Clone the repo and go inside it
+
+```sh
 git clone https://github.com/theo-grivel/my-configuration.git && cd my-configuration
 ```
 
-Puting file config
-```
-mkdir -p $HOME/i3
-```
-or
-```
-mkdir -p $HOME/.config/i3
-```
-if you wish
-```
-cp ./Assets/config $HOME/i3/config
-```
+2. Move `config` into `$HOME/.config/i3`
+
+## Lock screen
+
+| keys               | effect                 |
+| :-                 | :-                     |
+| `ctrl + w`         | i3 lock                |
+| `ctrl + shift + w` | lock with xscreensaver |
+
+## rofi
+
+| keys        | effect      |
+| :-          | :-          |
+| `super + d` | launch rofi |
+
+## Screenshot
+
+| keys               | effect     |
+| :-                 | :-         |
+| `Ctrl+Shift+Print` | Screenshot |
+
+## Brightness
+
+| keys               | effect         |
+| :-                 | :-             |
+| `ctrl + o`         | Increase by 5% |
+| `ctrl + shift + o` | Decrease by 5% |
 
 ## Workspaces
 
