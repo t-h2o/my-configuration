@@ -8,4 +8,5 @@ grub-mkconfig -o /boot/grub/grub.cfg
 # HOOKS=(base udev autodetect keyboard keymap consolefont modconf block encrypt lvm2 filesystems fsck)
 # Reload mkinitcpio with
 # mkinitcpio -P
-
+# Follow that: https://wiki.archlinux.org/title/GRUB#LVM
+# https://wiki.archlinux.org/title/GRUB#Encrypted_/boot
