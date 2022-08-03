@@ -2,10 +2,16 @@
 
 I share my dot files.
 
+Main color theme: [Cyberpunk-neon](https://github.com/Roboron3042/Cyberpunk-Neon)
+
 ## Arch
 
 * Installation of Arch: [scripts](arch/installation)
 * [Fonts](arch/fonts)
+
+  * gui: [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+  * cli: `ter-d28.psf.gz`
+
 * Shell: [zsh](arch/ohmyzsh)
 * Development:
 
