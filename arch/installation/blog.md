@@ -16,6 +16,12 @@ After to boot with the USB key, connect to internet, change the root password an
 $ ssh root@${IP_ADDRESS}
 ```
 
+### Network time protocole
+
+```sh
+# timedatectl set-ntp true
+```
+
 ### Install git
 
 ```sh
