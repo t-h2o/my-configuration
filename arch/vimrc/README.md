@@ -1,13 +1,20 @@
 # Simple vim
 
+The main config, I remaped `hjkl` with `jkl;`.
+That make more sense for me, your indexs have to be on the `F` and the `J`.
+
+![image-keyboard](dactylo-clavier-position-doigts.png)
+
+## Tree
+
 ```
-├── vim
+├── .config/vim
 │   ├── init.vim
 │   ├── personnal-info.vimrc
 │   ├── plug-config.vimrc
 │   ├── plug.vimrc
 │   └── settings.vimrc
-└── vimrc
+└── .vimrc
 ```
 
 # Plug
