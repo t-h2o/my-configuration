@@ -1,33 +1,45 @@
-# configuration file
+# Tmux
 
-move this file in ~/.tmux.conf
+> terminal multiplexer
 
-## manual
+Move into `~/.config/tmux/tmux.conf`
 
-to do a command, you need press `ctrl + a`.
+## My shortcuts
+
+Tmux is a bit different:
+To do a command, you need press `ctrl + a`.
 And then, you can press a keyboard shortcut.
 
+| keys      | effect                                      |
+| :-:       | :-:                                         |
+| ```[```   | enter in vi mode (v: to select, y: to copy) |
+| ```q```   | Escape of vi mode                           |
+| ```]```   | past                                        |
+| ```c```   | open new window                             |
+| ```[n]``` | go to window [n]                            |
+| ```d```   | detach tmux (for going back: `tmux attach`) |
 
-# My shortcuts
+### Split screen
 
-| keys			| effect			|
-| :-:			| :-:				|
-| ```esc```		| vi mode			|
-| ```|```		| split vertical	|
-| ```-```		| split horizontal	|
-| ```j```		| pane left			|
-| ```k```		| pane down			|
-| ```l```		| pane up			|
-| ```;```		| pane right		|
-| ```J```		| resize-pane left	|
-| ```K```		| resize-pane down	|
-| ```L```		| resize-pane up	|
-| ```:```		| resize-pane right	|
-| ```c```		| open new window	|
-| ```[n]```		| go to window [n]	|
-| ```d```		| detach tmux	|
+| keys    | effect           |
+| :-      | :-               |
+| ```\|``` | split vertical   |
+| ```-``` | split horizontal |
 
-for going back 
-```
-tmux attach
-```
+### Move
+
+| keys    | effect     |
+| :-      | :-         |
+| ```j``` | pane left  |
+| ```k``` | pane down  |
+| ```l``` | pane up    |
+| ```;``` | pane right |
+
+### Resizing
+
+| keys    | effect            |
+| :-      | :-                |
+| ```J``` | resize-pane left  |
+| ```K``` | resize-pane down  |
+| ```L``` | resize-pane up    |
+| ```:``` | resize-pane right |
