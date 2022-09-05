@@ -23,6 +23,7 @@ Main color theme: [Cyberpunk-neon](https://github.com/Roboron3042/Cyberpunk-Neon
 
   * Window manager: [i3](arch/i3)
   * Launcher: [rofi](arch/rofi)
+  * Browser: [qutebrowser](arch/qutebrowser)
 
 * Keyboard's [speed rate](arch/tools)
 * Music player: [musikcube](https://github.com/clangen/musikcube)
