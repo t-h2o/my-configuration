@@ -21,6 +21,7 @@ Main color theme: [Cyberpunk-neon](https://github.com/Roboron3042/Cyberpunk-Neon
 
 * Graphic user interface:
 
+  * Bar: [polybar](arch/polybar)
   * Window manager: [i3](arch/i3)
   * Launcher: [rofi](arch/rofi)
   * Browser: [qutebrowser](arch/qutebrowser)
