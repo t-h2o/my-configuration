@@ -31,6 +31,7 @@ Main color theme: [Cyberpunk-neon](https://github.com/Roboron3042/Cyberpunk-Neon
 * PDF viewer: [zathura](arch/zathura)
 * Shortcuts keyboard: [sxhkd](arch/sxhkd)
 * Power manager: [tlp](arch/tlp)
+* Calendar: [when](arch/when)
 
 
 ## Apple
