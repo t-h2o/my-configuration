@@ -27,7 +27,7 @@ Main color theme: [Cyberpunk-neon](https://github.com/Roboron3042/Cyberpunk-Neon
   * Browser: [qutebrowser](arch/qutebrowser)
 
 * Keyboard's [speed rate](arch/tools)
-* Music player: [musikcube](https://github.com/clangen/musikcube)
+* Music player: [cmus](arch/cmus)
 * PDF viewer: [zathura](arch/zathura)
 * Shortcuts keyboard: [sxhkd](arch/sxhkd)
 * Power manager: [tlp](arch/tlp)
