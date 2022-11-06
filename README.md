@@ -32,6 +32,7 @@ Main color theme: [Cyberpunk-neon](https://github.com/Roboron3042/Cyberpunk-Neon
 * Shortcuts keyboard: [sxhkd](arch/sxhkd)
 * Power manager: [tlp](arch/tlp)
 * Calendar: [when](arch/when)
+* Renamer toll: [vimv](arch/vimv)
 
 
 ## Apple
