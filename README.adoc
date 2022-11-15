@@ -1,4 +1,5 @@
 == My environment
+:toc:
 
 I share my dot files.
 
