@@ -1,10 +1,9 @@
 = My environment
 :toc:
 
-I share my dot files.
-
-Main color theme:
-https://github.com/Roboron3042/Cyberpunk-Neon[Cyberpunk-neon]
+____
+Main color theme: https://github.com/Roboron3042/Cyberpunk-Neon[Cyberpunk-neon]
+____
 
 == Arch
 
