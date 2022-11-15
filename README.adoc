@@ -1,0 +1,43 @@
+== My environment
+
+I share my dot files.
+
+Main color theme:
+https://github.com/Roboron3042/Cyberpunk-Neon[Cyberpunk-neon]
+
+=== Arch
+
+* Installation of Arch: link:arch/installation[scripts]
+* link:arch/fonts[Fonts]
+** gui: https://www.jetbrains.com/lp/mono/[JetBrains Mono]
+** cli: `ter-d28.psf.gz`
+* Shell: link:arch/ohmyzsh[zsh]
+* Development:
+** Text editor: link:arch/vimrc[vim]
+** Terminal multiplexer: link:arch/tmux[tmux]
+** Terminal emulator: link:arch/kitty[kitty]
+* Graphic user interface:
+** Bar: link:arch/polybar[polybar]
+** Window manager: link:arch/i3[i3]
+** Launcher: link:arch/rofi[rofi]
+** Browser: link:arch/qutebrowser[qutebrowser]
+* Keyboard’s link:arch/tools[speed rate]
+* Music player: link:arch/cmus[cmus]
+* PDF viewer: link:arch/zathura[zathura]
+* Shortcuts keyboard: link:arch/sxhkd[sxhkd]
+* Power manager: link:arch/tlp[tlp]
+* Calendar: link:arch/when[when]
+* Renamer toll: link:arch/vimv[vimv]
+
+=== Apple
+
+* Terminal emulator: link:apple/kitty/README.md[kitty]
+
+=== Android
+
+* Terminal emulator: link:./android/README.md[termux]
+
+=== Special tools
+
+* https://github.com/sharkdp/bat[batcat]
+* https://linux.die.net/man/1/tree[tree]
