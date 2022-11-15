@@ -15,7 +15,7 @@ ____
 * Development:
 ** Text editor: link:arch/vimrc[vim]
 ** Terminal multiplexer: link:arch/tmux[tmux]
-** Terminal emulator: link:arch/kitty[kitty]
+** Terminal emulator: link:arch/kitty[kitty] (**MacOS**: link:apple/kitty/README.md[kitty])
 * Graphic user interface:
 ** Bar: link:arch/polybar[polybar]
 ** Window manager: link:arch/i3[i3]
@@ -28,10 +28,6 @@ ____
 * Power manager: link:arch/tlp[tlp]
 * Calendar: link:arch/when[when]
 * Renamer toll: link:arch/vimv[vimv]
-
-== Apple
-
-* Terminal emulator: link:apple/kitty/README.md[kitty]
 
 == Android
 
