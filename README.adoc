@@ -1,4 +1,4 @@
-== My environment
+= My environment
 :toc:
 
 I share my dot files.
@@ -6,7 +6,7 @@ I share my dot files.
 Main color theme:
 https://github.com/Roboron3042/Cyberpunk-Neon[Cyberpunk-neon]
 
-=== Arch
+== Arch
 
 * Installation of Arch: link:arch/installation[scripts]
 * link:arch/fonts[Fonts]
@@ -30,15 +30,15 @@ https://github.com/Roboron3042/Cyberpunk-Neon[Cyberpunk-neon]
 * Calendar: link:arch/when[when]
 * Renamer toll: link:arch/vimv[vimv]
 
-=== Apple
+== Apple
 
 * Terminal emulator: link:apple/kitty/README.md[kitty]
 
-=== Android
+== Android
 
 * Terminal emulator: link:./android/README.md[termux]
 
-=== Special tools
+== Special tools
 
 * https://github.com/sharkdp/bat[batcat]
 * https://linux.die.net/man/1/tree[tree]
