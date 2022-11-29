@@ -21,6 +21,7 @@ ____
 ** Window manager: link:arch/i3[i3]
 ** Launcher: link:arch/rofi[rofi]
 ** Browser: link:arch/qutebrowser[qutebrowser]
+** Wallpaper: link:arch/wallpaper[my wallpapers]
 * Keyboard’s link:arch/tools[speed rate]
 * Music player: link:arch/cmus[cmus]
 * PDF viewer: link:arch/zathura[zathura]
