@@ -1,0 +1,6 @@
+= https://github.com/octobanana/peaclock[Peaclock]
+
+____
+https://github.com/octobanana/peaclock[Peaclock] is a responsive and customizable clock, timer, and stopwatch for the terminal.
+I am a fan of the view binary (Wikipedia: https://en.wikipedia.org/wiki/Binary_clock[binary clock]).
+____

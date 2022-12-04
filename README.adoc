@@ -30,6 +30,7 @@ ____
 * Calendar: link:arch/when[when]
 * Renamer toll: link:arch/vimv[vimv]
 * File manager: link:arch/ranger[ranger]
+* Clock: link:arch/peaclock[peaclock]
 
 == Android
 
