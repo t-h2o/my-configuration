@@ -1,1 +1,3 @@
-calendar_today_style="bold,fgred,bgcyan"
+calendar_today_style = "bold,fgred,bgcyan"
+calendar = /home/theo/.when/calendar
+editor = vim
