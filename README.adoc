@@ -16,6 +16,7 @@ ____
 ** Text editor: link:arch/vimrc[vim]
 ** Terminal multiplexer: link:arch/tmux[tmux]
 ** Terminal emulator: link:arch/kitty[kitty] (**MacOS**: link:apple/kitty/README.md[kitty])
+** Git: link:arch/git[gitconfig]
 * Graphic user interface:
 ** Bar: link:arch/polybar[polybar]
 ** Window manager: link:arch/i3[i3]
