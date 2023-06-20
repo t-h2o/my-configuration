@@ -24,7 +24,7 @@ font pango: JetBrains Mono NL Bold
 ```
 
 
-# TTY fonts
+### TTY fonts
 
 When you are installing, double the size of the font
 
@@ -34,3 +34,10 @@ setfont -d
 
 Change your font with the `./install.sh`.
 
+### Special characters
+
+Install this package [noto-fonts-extra](https://archlinux.org/packages/extra/any/noto-fonts-extra/)
+
+```bash
+pacman -S noto-fonts-extra
+```
