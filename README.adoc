@@ -33,6 +33,7 @@ ____
 * File manager: link:arch/ranger[ranger]
 * Clock: link:arch/peaclock[peaclock]
 * Markup languages: Markdown & link:arch/asciidoc[asciidoc]
+* Firewall: link:arch/ufw[ufw]
 
 == Android
 

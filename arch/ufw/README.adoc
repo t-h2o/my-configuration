@@ -1,0 +1,8 @@
+= https://wiki.archlinux.org/title/Uncomplicated_Firewall[UFW]
+
+Allow a range of IP address to a port
+
+[bash]
+----
+ufw allow from 10.0.0.0/24 proto tcp to any port 12345
+----
