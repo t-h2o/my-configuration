@@ -1,0 +1,1 @@
+= https://archlinux.org/packages/core/x86_64/cronie/[cronie]
