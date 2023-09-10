@@ -33,6 +33,7 @@ ____
 * Markup languages: Markdown & link:arch/asciidoc[asciidoc]
 * Firewall: link:arch/ufw[ufw]
 * Cron: link:arch/cronie[cronie]
+* Optical character recognition (OCR): https://github.com/manisandro/gImageReader[gImageReader]
 
 == Android
 
