@@ -1,0 +1,13 @@
+= https://taskwarrior.org/[taskwarrior]
+
+== set theme no color
+
+in `~/.taskrc` uncomment this line
+
+----
+#include no-color.theme
+----
+
+== https://timewarrior.net/[timew]
+
+add a hook with timew: https://timewarrior.net/docs/taskwarrior/

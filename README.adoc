@@ -34,6 +34,7 @@ ____
 * Firewall: link:arch/ufw[ufw]
 * Cron: link:arch/cronie[cronie]
 * Optical character recognition (OCR): https://github.com/manisandro/gImageReader[gImageReader]
+* Task: https://taskell.app/[taskell] & link:arch/taskwarrior[taskwarrior]
 
 == Android
 
