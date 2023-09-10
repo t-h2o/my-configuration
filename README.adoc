@@ -23,7 +23,6 @@ ____
 ** Launcher: link:arch/rofi[rofi]
 ** Browser: link:arch/qutebrowser[qutebrowser]
 ** Wallpaper: link:arch/wallpaper[my wallpapers]
-* Keyboard’s link:arch/tools[speed rate]
 * Music player: link:arch/cmus[cmus]
 * PDF viewer: link:arch/zathura[zathura]
 * Power manager: link:arch/tlp[tlp]
