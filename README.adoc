@@ -26,7 +26,6 @@ ____
 * Keyboard’s link:arch/tools[speed rate]
 * Music player: link:arch/cmus[cmus]
 * PDF viewer: link:arch/zathura[zathura]
-* Shortcuts keyboard: link:arch/sxhkd[sxhkd]
 * Power manager: link:arch/tlp[tlp]
 * Calendar: link:arch/when[when]
 * Renamer toll: link:arch/vimv[vimv]
