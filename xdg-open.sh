@@ -8,3 +8,6 @@ xdg-mime query default text/plain
 
 # vim as default program
 xdg-mime default vim.desktop text/plain
+
+# vlc ad default program
+xdg-mime default vlc.desktop audio/ogg
