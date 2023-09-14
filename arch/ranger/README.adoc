@@ -1,5 +1,0 @@
-= Ranger
-
-____
-ranger is a text-based file manager written in Python.
-____
