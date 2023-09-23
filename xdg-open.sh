@@ -11,3 +11,6 @@ xdg-mime default vim.desktop text/plain
 
 # vlc ad default program
 xdg-mime default vlc.desktop audio/ogg
+
+# firefox as default browser
+xdg-settings set default-web-browser firefox.desktop
