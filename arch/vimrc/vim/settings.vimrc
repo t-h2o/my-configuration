@@ -20,9 +20,3 @@ let mapleader = "," " map leader to comma
 
 nnoremap <leader>v :vsplit<CR>
 nnoremap <leader>h :split<CR>
-
-" change native mouvement hjkl --> jkl;
-noremap ; l
-noremap l k
-noremap k j
-noremap j h
